@@ -1,0 +1,55 @@
+<%@ page contentType="text/html; charset=iso-8859-1;" language="java" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1;"/>
+    <spring:url value="/resources/css/" var="estilos"/>
+    <spring:url value="/resources/js/" var="javascript"/>
+    <spring:url value="/main" var="loginUrl"/>
+    <title>Sistema de Contabilidad General de la Naci&#243;n</title>
+    <link href="${estilos}EstilosPaginas.css" rel="stylesheet" type="text/css"/>
+    <link href="${estilos}Contenedores.css" rel="stylesheet" type="text/css"/>
+    <link href="${estilos}Textbox.css" rel="stylesheet" type="text/css"/>
+    <link href="${estilos}LoginStyle.css" rel="stylesheet" type="text/css"/>
+
+    <script type="text/javascript" src="${javascript}prototype-1.6.0.2.js"></script>
+    <script type="text/javascript" src="${javascript}ext-all-debug-w-comments.js"></script>
+
+</head>
+<body>
+<div class="contenedor">
+    <div class="cabecera">
+        <img src="../img/Logos.jpg" alt="" style="width: 160px; height: 180px; float: left;"/>
+        <p class="TextoNombre">SISTEMA DE CONTABILIDAD GENERAL DE LA NACI&#211;N - SICOGEN II</br>SECTOR P&#218;BLICO</p>
+    </div>
+    <div id="cuerpo" class="cuerpo" style="clear: both;">
+        <div id="leyenda" class="leyenda">
+            <p class="TextoJustificado">Duraci&#243;n de permiso postnatal
+                parental, previsto en el artículo 197 bis del C&#243;digo del Trabajo,
+                se aplica a aquellas personas que hayan finalizado su descanso
+                postnatal, previa dictaci&#243;n de la ley 20545, ocurrida el
+                17/10/2011, pudiendo prolongar dicho descanso hasta que el menor
+                cumpla 24 semanas de edad.</p>
+        </div>
+        <div id="contUser" class="contUser">
+					<span
+                            style="color: #999; font-weight: bold; text-transform: uppercase">Acceso
+						Privado</span>
+            <!-- <form action="main" method="get">
+                Usuario  : <input type="text" name="userName" ><br>
+                Password : <input type="password" name="password" ><br>
+                <input type="submit" value="Login">
+            </form> -->
+            <form:form method="POST" modelAttribute="usuario" action="${loginUrl}">
+                <form:input path="nomUsuario" id="nomUsuario" type="text"/>
+                <form:input path="password" id="password" type="password"/>
+                <input type="submit" value="Login">
+            </form:form>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.contraloria.cl/Informes/SP/InformeContable" targetNamespace="http://www.contraloria.cl/Informes/SP/InformeContable" elementFormDefault="qualified">
+	<element name="InformeContable">
+		<complexType>
+			<sequence>
+				<element name="cabecera" type="tns:cabecera" minOccurs="1" maxOccurs="1"/>
+				<element name="listaDetalle" type="tns:listaDetalle" minOccurs="1" maxOccurs="1"/>
+			</sequence>
+		</complexType>
+	</element>
+	<!--Entre comentarios se incluye información referente al formato o restriccion del dato-->
+	<complexType name="cabecera">
+		<sequence>
+			<element name="informe" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="partida" minOccurs="1" maxOccurs="1">
+				<!-- 2 caracteres -->
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="2"/>
+						<pattern value="[0-9]{2}"/>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="capitulo" minOccurs="1" maxOccurs="1">
+				<!-- 2 caracteres -->
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="2"/>
+						<pattern value="[0-9]{2}"/>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="ejercicio" minOccurs="1" maxOccurs="1">
+				<!-- 4 caracteres -->
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="4"/>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="periodo" minOccurs="1" maxOccurs="1">
+				<simpleType>
+					<restriction base="positiveInteger">
+						<totalDigits value="2"/>
+						<minInclusive value="01"/>
+						<maxInclusive value="12"/>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="rut" type="string" minOccurs="1" maxOccurs="1"/>
+		</sequence>
+	</complexType>
+	<complexType name="listaDetalle">
+		<sequence>
+			<element name="detalle" type="tns:detalle" minOccurs="0" maxOccurs="unbounded"/>
+		</sequence>
+	</complexType>
+	<complexType name="detalle">
+		<sequence>
+			<element name="folioContable" type="long" minOccurs="1" maxOccurs="1"/>
+			<element name="codigoPrograma" minOccurs="1" maxOccurs="1">
+				<!-- 2 caracteres -->
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="2"/>
+						<pattern value="[0-9]{2}"/>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="areaTransaccionalCodigo" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="areaTransaccionalNombre" type="string" minOccurs="1" maxOccurs="1"/>
+			<element name="tipoMoneda" minOccurs="1" maxOccurs="1">
+				<complexType>
+					<attribute name="tipoMoneda" use="required">
+						<simpleType>
+							<restriction base="string">
+								<enumeration value="USD"/>
+								<enumeration value="CLP"/>
+								<enumeration value="USD/CLP"/>
+							</restriction>
+						</simpleType>
+					</attribute>
+				</complexType>
+			</element>
+			<element name="tipoMovimiento" minOccurs="1" maxOccurs="1">
+				<complexType>
+					<attribute name="tipoMovimiento" use="required">
+						<simpleType>
+							<restriction base="string">
+								<enumeration value="APERTURA"/>
+								<enumeration value="FINANCIERO"/>
+								<enumeration value="ECONOMICO"/>
+								<enumeration value="CIERRE"/>
+							</restriction>
+						</simpleType>
+					</attribute>
+				</complexType>
+			</element>
+			<element name="tipoTransaccion" minOccurs="1" maxOccurs="1">
+				<complexType>
+					<attribute name="tipoTransaccion" use="required">
+						<simpleType>
+							<restriction base="string">
+								<enumeration value="CREACION"/>
+								<enumeration value="AJUSTE"/>
+								<enumeration value="NO"/>
+							</restriction>
+						</simpleType>
+					</attribute>
+				</complexType>
+			</element>
+			<element name="cuentaContable" type="tns:cuentaContable" minOccurs="1" maxOccurs="1"/>
+			<element name="asociacionPresup" type="tns:asociacionPresup" minOccurs="0" maxOccurs="1"/>
+			<element name="proyecto" type="tns:proyecto" minOccurs="0" maxOccurs="1"/>
+			<element name="monto" type="tns:monto" minOccurs="1" maxOccurs="1"/>
+			<element name="tipoDocumento" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="numeroDocumento" type="string" minOccurs="0" maxOccurs="1"/>
+		</sequence>
+	</complexType>
+	<complexType name="cuentaContable">
+		<sequence>
+			<element name="agrupacion" minOccurs="1" maxOccurs="1">
+				<!-- 3 caracteres -->
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="3"/>
+						<pattern value="[0-9]{3}"/>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="ctaN1" minOccurs="1" maxOccurs="1">
+				<!-- 2 caracteres -->
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="2"/>
+						<pattern value="[0-9]{2}"/>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="ctaN2" minOccurs="0" maxOccurs="1">
+				<!-- 2 caracteres -->
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="2"/>
+						<pattern value="[0-9]{2}"/>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="ctaN3" minOccurs="0" maxOccurs="1">
+				<!-- 2 caracteres -->
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="2"/>
+						<pattern value="[0-9]{2}"/>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="denominacionCuenta" type="string" minOccurs="1" maxOccurs="1"/>
+		</sequence>
+	</complexType>
+	<complexType name="asociacionPresup">
+		<sequence>
+			<element name="subtitulo" minOccurs="0" maxOccurs="1">
+				<!-- 2 caracteres -->
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="2"/>
+						<pattern value="[0-9]{2}"/>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="item" minOccurs="0" maxOccurs="1">
+				<!-- 2 caracteres -->
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="2"/>
+						<pattern value="[0-9]{2}"/>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="asignacion" minOccurs="0" maxOccurs="1">
+				<!-- 3 caracteres -->
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="3"/>
+						<pattern value="[0-9]{3}"/>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="subAsignacion" minOccurs="0" maxOccurs="1">
+				<!-- 3 caracteres -->
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="3"/>
+						<pattern value="[0-9]{3}"/>
+					</restriction>
+				</simpleType>
+			</element>
+		</sequence>
+	</complexType>
+	<complexType name="proyecto">
+		<sequence>
+			<element name="etapa" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="codigoBIP" type="string" minOccurs="0" maxOccurs="1"/>
+			<element name="digitoV" minOccurs="0" maxOccurs="1">
+				<simpleType>
+					<restriction base="string">
+						<maxLength value="1"/>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="denominacionProyecto" type="string" minOccurs="0" maxOccurs="1"/>
+		</sequence>
+	</complexType>
+	<complexType name="monto">
+		<sequence>
+			<element name="debeCLP" type="long" minOccurs="1" maxOccurs="1"/>
+			<!-- númerico -->
+			<element name="haberCLP" type="long" minOccurs="1" maxOccurs="1"/>
+			<!-- númerico -->
+			<element name="debeUSD" minOccurs="1" maxOccurs="1">
+				<simpleType>
+					<restriction base="string">
+						<pattern value="-?[0-9]+(,[0-9]+)?"/>
+					</restriction>
+				</simpleType>
+			</element>
+			<element name="haberUSD" minOccurs="1" maxOccurs="1">
+				<simpleType>
+					<restriction base="string">
+						<pattern value="-?[0-9]+(,[0-9]+)?"/>
+					</restriction>
+				</simpleType>
+			</element>
+		</sequence>
+	</complexType>
+</schema>

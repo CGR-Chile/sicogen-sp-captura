@@ -1,0 +1,256 @@
+@import url("baseCuadratura.css");
+#scrollbar1 { width: 970px; }
+#scrollbar1 .viewport { width:950px;}
+#imgTitulo{margin: 8px 5px 5px 15px;}
+
+.cabezeraRep{
+	display: table;
+	background-color:#fafafa;
+	color: #4a9fd1;
+	width: 100%;
+	font: normal 12px arial ;
+	padding-bottom: 10px;
+}
+.titColumnas{
+	font: bold 12px arial;
+	clear:both;
+	float:left;	
+	color:#2581b8;
+	padding:5px;
+	width: 905px;
+}
+
+.celCuadrResLeft{	width:500px;float:left;text-align: left;padding-left:55px;}
+.celCuadrResRight{	width:150px;float:left;text-align: right;}
+
+.infoContenedores{
+	font: bold 12px arial ;
+	width: 915px;	
+	margin: 10px 0 0 15px;
+	padding: 0px;
+	border: 2px solid;	
+	background-color: #fff;
+}
+.negrita{font-weight:bold; color:#2581b8;}
+
+.nomTotales{clear:both;color:#2581b8;font: bold 12px arial;padding:5px;}
+.totalCtaNom{width:595px;float:left;text-align: left;padding-left:50px;}
+.totalCtaVal{width:120px;float:left;text-align:right;}
+.tituloInforme{	font: bold 14px arial; background-color:#D7D7D9; color: #fff; margin: 0; padding: 5px 20px;}
+
+.InfReporte{
+	float:left;	
+	text-align: center;
+}
+
+.detReporteInf{
+	float:left;
+	display: table;
+}
+.colTit{
+	float:left;
+	width: 120px;
+	text-align: center;
+}
+.totales{
+	display:table;
+	width:100%;
+}
+.colorOk{
+	color:#9bbb59;
+}
+.Error{
+	color:#FF0000;
+}
+
+.colTotal{
+	float:left;
+	width: 25%;
+	text-align: center;
+}
+table.altrowstable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #a9c6c9;
+	border-collapse: collapse;
+}
+table.altrowstable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+table.altrowstable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+.oddrowcolor{
+	background-color:#d4e3e5;
+}
+.evenrowcolor{
+	background-color:#c3dde0;
+}
+
+
+
+.subtitulo{	
+	font: bold 12px sans-serif ;
+	text-transform: uppercase; 
+	color: #666666;
+	margin-left:15px;
+}
+.titulo{
+	text-transform: uppercase; 
+}
+
+.hr { 
+
+}
+.encCel{
+	float:left;
+	padding:5px 10px 0 0;
+}
+
+.txtInformes{
+	text-align: left;
+	font: normal 10px sans-serif ;
+	width: 98%;	
+}
+.txtInformesC{
+	text-align: Center;
+	font: normal 10px sans-serif ;
+	width: 98%;	
+}
+.txtInformesR{
+	text-align: right;
+	font: normal 10px sans-serif ;
+	width: 99%;	
+}
+
+.detDigitacion{
+	/*display:table;*/
+	clear:both;
+	margin:10px;
+	font: normal 12px sans-serif ;
+}
+.detCel01{
+	width: 80px;
+	padding: 2px;
+}
+.detCel01{
+	width: 80px;
+	padding: 2px;
+}
+.txtMoneda{
+	width: 70px;
+	text-align: center;
+	padding: 0 3px 0 0;
+}
+
+.img25{
+	width:25px;
+	height: 25px;
+}
+.listaTitulo{
+	left: 100px; 
+	top: 200px;
+	font: bold 10px sans-serif ;
+}
+.listaTitulo th{
+	background-color: #E6E6E6;
+	
+}
+.txtFile{
+	font: normal 10px sans-serif ;
+	padding:0;
+	margin:0;
+}
+
+#table2 {position:relative;left:100px;top:100px;}
+#titulo{	font:arial;	font-size:30px;	position:relative;left:100px;top:100px;	 width: 900px;}
+#verform,#selecinfo,#optioninfo { left: 100px; position: relative;top: 120px;}
+#row1{ background-color: #F8E9E9; clear: both; font: bold 10px sans-serif; height: auto !important; margin: 0; min-height: 32px;padding: 0;
+position: relative;left:200px;top:125px;}
+#row2,#row3{ left: 60px; position: relative; top: 100px;width:1800px}	
+#menuCabecera,#menuCabecera2{ position: relative; left:60px; top:120px; font:Sans-serif; font-size:20px;width:1800px}
+#menuCabecera ul li,#menuCabecera2 ul li {padding: 5px;display: table-cell;}
+#row2 ul li,#row3 ul li { display: table-cell;}
+
+#tinfo{width: 270px;}
+
+
+
+
+.fila1{width: 261px;text-align:center;}
+.fila2{   text-align: center;width: 139px;}
+.fila3{  text-align: center;width: 139px;}
+.fila4{  text-align: center;width: 139px;}
+.fila5{text-align: center;width: 140px;}
+.fila6{width: 138px;text-align: center;}
+.fila7{ text-align: center;width: 139px;}
+.fila8{width: 138px;text-align: center;}
+.fila9{width: 138px;text-align: center;}
+.fila10{ width: 129px;text-align: center;}
+.fila11{  text-align: center;width: 82px;}
+.fila12{text-align: center; width: 129px;}
+.fila13{   width: 100px;}
+.fila14{  text-align: center;width: 131px;}
+.fila15{   width: 149px;}
+.fila16{text-align: center;width: 130px;}
+.fila17{ text-align: center;width: 128px;}
+.fila18{ text-align: center;width: 128px;}
+.fila19{ text-align: center;width: 139px;}
+.fila20{ text-align: center;width: 139px;}
+.fila21{ text-align: center;width: 140px;}
+.fila22{ text-align: center;width: 79px;}
+.fila23{ text-align: center;width: 116px;}
+.fila24{ text-align: center;width: 119px;}
+.fila25{ text-align: center;width: 118px;}
+.fila26{ text-align: center;width: 119px;}
+.fila27{ text-align: center;width: 138px;}
+.fila28{ text-align: center;width: 138px;}
+.fila29{ text-align: center;width: 139px;}
+.fila30{ text-align: center;width: 139px;}
+.fila31{ text-align: center;width: 128px;}
+.fila32{ text-align: center;width: 128px;}
+.fila33{ text-align: center;width: 128px;}
+.fila34{ text-align: center;width: 50px;}
+.fila35,#subt{ text-align: center;width: 128px;}
+.fila36,#item{ text-align: center;width: 128px;}
+.fila37,#Asig{ text-align: center;width: 128px;}
+.fila38,#Suba{ text-align: center;width: 128px;}
+.fila39{ text-align: center;width: 128px;}
+.fila40{ text-align: center;width: 128px;}
+.fila41{ text-align: center;width: 128px;}
+
+
+
+#imagencuenta{cursor: pointer;position: relative;top: 9px;width: 30px;}
+#edit,#delete{cursor:pointer;width:30px;}
+#pop {z-index:2;position:absolute;border: 1px solid #333333;text-align:center;background:#FFFFFF;}
+#cerrar { float:right;margin-right:5px;cursor:pointer;font:Verdana, Arial, Helvetica, sans-serif;font-size:12px;font-weight:bold;color:#000000;
+background-color:#FFFFFF;width:10px;position:relative;margin-top:-1px;text-align:center;}
+
+#titulo1{ text-align: center; width: 70px;}
+#titulo2{ text-align: center; width: 148px;}
+#titulo3{ text-align: center; width: 119px;}
+#titulo4{ text-align: center; width: 60px;}
+#titulo5{ text-align: center; width: 40px;}
+#titulo6{ text-align: center; width: 40px;}
+#titulo7{ text-align: center; width: 40px;}
+#titulo8{ text-align: center; width: 40px;}
+#titulo9{text-align: center; width: 151px;}
+#titulo10{text-align: center; width: 110px;}
+#titulo11{text-align: center; width: 110px;}
+#titulo12{   text-align: center;width: 50px;}
+#titulo13{   text-align: center;width: 60px;}
+/*css para pagina de digitacion AN*/
+#pop2 {z-index:2;position:absolute;border: 1px solid #333333;text-align:center;background:#FFFFFF;}
+#cerrar2 { float:right;margin-right:5px;cursor:pointer;font:Verdana, Arial, Helvetica, sans-serif;font-size:12px;font-weight:bold;color:#000000;
+background-color:#FFFFFF;width:10px;position:relative;margin-top:-1px;text-align:center;}
+.cien{width:120px;}
+.moneda{width:60px;}

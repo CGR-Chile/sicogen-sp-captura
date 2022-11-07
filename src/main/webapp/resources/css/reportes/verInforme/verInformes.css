@@ -1,0 +1,15 @@
+.logo { background-image: url("../../../images/sicogenii_logo.png"); background-repeat: no-repeat; background-size: 320px 90px;
+    	height: 92px; width: 960px; padding-bottom: 10px;}
+#titulo{	background-color:#d7d7d9;padding:10px;text-align:center;width:936px;font:bold 20px Arial;color:#454648;}
+
+.tabla{		font: bold 12px arial;}
+.tabla{			border-collapse:collapse;margin:0 0 10px 0;}
+.tabla td,th{	border:0px solid black;}
+.tabla thead{	font: bold 12px arial;background-color:#B5B3B3;color:#fff;padding:15px;text-align: center;height: 30px;}
+.tabla tbody{	font: normal 10px arial;color:#5D5C61;}
+.tabla tbody tr{	}
+.tabla tbody .rw_DetImp{	background-color:#FFF3F3;}
+.tabla tbody .rw_DetPar{	background-color:#FFE9E9;}
+
+
+.row01 {	background-color:#464749;clear: both;color: #FFFFFF;font: bold 12px Arial;padding: 2.5px 0 2.5px 5px; margin: 10px 0 0 0;text-align: justify;}

@@ -1,0 +1,40 @@
+.contenedor {
+	width: 1000px;
+	min-width: 800px;
+	background-color: #FFF;
+	margin: 0 auto 0 auto;
+	
+}
+#pie {	clear: both;padding-bottom: 5px;text-align: center;padding-right: 5px;padding-top: 20px;margin-top: 5px;
+	background-image: linear-gradient(bottom, rgb(70,71,73) 17%, rgb(56,52,56) 59%, rgb(168,168,168) 80%);
+	background-image: -o-linear-gradient(bottom, rgb(70,71,73) 17%, rgb(56,52,56) 59%, rgb(168,168,168) 80%);
+	background-image: -moz-linear-gradient(bottom, rgb(70,71,73) 17%, rgb(56,52,56) 59%, rgb(168,168,168) 80%);
+	background-image: -webkit-linear-gradient(bottom, rgb(70,71,73) 17%, rgb(56,52,56) 59%, rgb(168,168,168) 80%);
+	background-image: -ms-linear-gradient(bottom, rgb(70,71,73) 17%, rgb(56,52,56) 59%, rgb(168,168,168) 80%);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.17, rgb(70,71,73)),color-stop(0.59, rgb(56,52,56)),color-stop(0.8, rgb(168,168,168)));
+}
+#reqmin{
+	font-size: 9px;
+	font-style: italic;
+}
+.reqmin{
+	font-size: 9px;
+	font-style: italic;
+}
+.contIconografia{
+	float:left;
+	background-image: url('../img/rectangulo.png');
+	font: normal 11px arial;
+	width: 540px;
+	background-size:540px 72px;
+	background-repeat:no-repeat;	
+	height: 75px;
+	margin-top:5px;
+	padding: 10px 0px; 
+}
+
+.contIcono{
+    margin:0 0 0 15px;
+    float:left;
+    width:135px;
+}

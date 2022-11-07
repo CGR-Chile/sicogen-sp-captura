@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<wsdl:definitions 	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                     xmlns:tns="http://www.cgr.cl/OSB/SectorPublico/V1/EXP/EjecucionEnvio"
+                     xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                     name="ejecutarEnvio"
+                     targetNamespace="http://www.cgr.cl/OSB/SectorPublico/V1/EXP/EjecucionEnvio">
+    <wsdl:types>
+
+        <xsd:schema targetNamespace="http://www.cgr.cl/OSB/SectorPublico/V1/EXP/EjecucionEnvio">
+
+            <xsd:element name="ejecutarEnvio">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="idEntidad" 	type="xsd:decimal"/>
+                        <xsd:element name="usuario" 	type="xsd:string"/>
+                        <xsd:element name="tipoArchivo" type="xsd:decimal"/>
+                        <xsd:element name="listaInformes" type="tns:listaInformes"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+
+
+            <xsd:element name="ejecutarEnvioResponse">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <xsd:element name="idCertificado" 	type="xsd:decimal" minOccurs="0"/>
+                        <xsd:element name="estado" 			type="xsd:decimal"/>
+                        <xsd:element name="mensaje" 		type="xsd:string"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+            </xsd:element>
+
+            <xsd:complexType name="listaInformes" >
+                <xsd:sequence>
+                    <xsd:element name="informe" 	type="tns:informe" 	minOccurs="0" 	maxOccurs="unbounded"/>
+                </xsd:sequence>
+            </xsd:complexType>
+
+            <xsd:complexType 	name="informe">
+                <xsd:sequence>
+                    <xsd:element name="idInforme" 	type="xsd:string"/>
+                    <xsd:element name="codigoInforme" type="xsd:string"/>
+                    <xsd:element name="nombreInforme" type="xsd:string"/>
+                    <xsd:element name="estadoInforme" type="xsd:string"/>
+                    <xsd:element name="periodo" 	type="xsd:decimal"/>
+                </xsd:sequence>
+            </xsd:complexType>
+
+        </xsd:schema>
+
+    </wsdl:types>
+    <wsdl:message name="ejecutarEnvioRequest">
+        <wsdl:part element="tns:ejecutarEnvio" name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="ejecutarEnvioResponse">
+        <wsdl:part element="tns:ejecutarEnvioResponse" name="parameters"/>
+    </wsdl:message>
+    <wsdl:portType name="ejecutarEnvio">
+        <wsdl:operation name="ejecutarEnvio">
+            <wsdl:input message="tns:ejecutarEnvioRequest"/>
+            <wsdl:output message="tns:ejecutarEnvioResponse"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="ejecutarEnvioSOAP" type="tns:ejecutarEnvio">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="ejecutarEnvio">
+            <soap:operation soapAction="http://www.cgr.cl/OSB/SectorPublico/V1/EXP/EjecucionEnvio/ejecutarEnvio"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="ejecutarEnvio">
+        <wsdl:port binding="tns:ejecutarEnvioSOAP" name="ejecutarEnvioSOAP">
+            <soap:address location="http://www.example.org/"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

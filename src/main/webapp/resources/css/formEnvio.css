@@ -1,0 +1,80 @@
+
+.contenedorEnvio{
+	width:100%;
+	max-width: 100%;
+	min-width: 820px;
+	background-color: #fff;
+	/*
+	padding:15 0 5px 15px;
+	margin: 0% 0.5% 15% 71%;
+	margin:15px auto 5px auto;
+	*/
+	margin:15px auto 5px auto;
+	padding: 5px 10px 10px 25px;
+	border: 2px solid;
+	border-radius: 25px;
+	-moz-border-radius: 25px; /* Old Firefox */
+}
+
+.contenedorformEnvio{
+	width:100%;
+	min-width: 450px;
+	max-width: 900px;
+	background-color: #fff;
+	padding:0 0 5px 15px; 
+	margin:15px auto 5px auto;	
+}
+
+.tituloEnvio{
+	display: block;
+	font: bold 16px sans-serif;
+	width:60%;
+	margin: 30px auto 30px auto;
+	paddign: 10px auto 10px auto;
+}
+
+.botones{
+	margin: 40px 0 0 35%;	
+}
+
+.rowNotSend{
+	background-color: #FAFAFA;
+	font: bold 12px sans-serif;
+	height: 20px;
+	display:block;
+	text-transform: uppercase;
+}
+
+.rowEnvInfImp{
+	background-color: #FAFAFA;
+	
+}
+.rowEnvInfPar{
+	background-color: #E6E6E6;
+}
+.rowEnvInfImp, .rowEnvInfPar{
+	font: normal 12px sans-serif;
+	text-transform: uppercase;
+	display:table;
+	width: 100%;
+	height: 20px;
+}
+.rwEncEnvInf{
+	width:100%;
+	height: 25px;
+	background-color: #B5B3B3;
+	color:#fff;
+	font: bold 12px sans-serif ;
+	padding: 10px 0 0 10px;
+	display: table; 
+}
+
+.rwEncEnvInfError{
+	width:100%;
+	height: 25px;
+	background-color: #B5B3B3;
+	color:red;
+	font: bold 12px sans-serif ;
+	padding: 10px 0 0 10px;
+	display: table; 
+}

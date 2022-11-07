@@ -1,0 +1,229 @@
+/*.search-table{table-layout: fixed; margin:20px auto 0px auto; }
+.search-table, td, th{border-collapse:collapse; border:1px solid #777;}
+.search-table-outter { overflow-x: scroll; }
+*/
+
+body{ 
+	font: 15px Arial;
+	color: #454648;
+}
+h1{
+	background-color: #d7d7d9;   
+	padding: 5px;                
+	text-align: center;
+	font: bold 20px Arial;
+	color: #454648;
+}                                
+h3{                              
+	text-align: justify;         
+	background-color: #fff;      
+	font-size: 90%;              
+	padding: 5px 7px;            
+}                                
+.background-grey{                
+	background-color: #f5f5f5;   
+	padding: 10px 30px 20px 30px;
+}                                
+.primera-tabla{                  
+	margin-bottom: 15px;
+	overflow: auto;
+	/* max-height: 3800px; */
+	border-collapse: collapse;
+	width: 1270px;
+}                                
+.header-tabla{                   
+	clear: both;                 
+	font: bold 12px Arial;       
+	color: #fff;                 
+	text-align: justify;         
+	background-color: #0066b8;   
+	padding: 2.5px 0 2.5px 5px;
+}
+.sub-header-tabla{
+	font: bold 10px arial;
+	text-align: center;
+	height:25px;
+	color: #fff;
+	background-color: #3c82c8;
+	line-height: 2.3;
+	width: 100%;
+	display:table;
+}
+.Col01{
+	display: table-cell;
+	text-align: center;
+	vertical-align:middle;
+	width: 10%;
+}
+.Col02{
+	display: table-cell;
+	text-align: center;
+	vertical-align:middle;
+	width: 30%;
+}
+.Col03{
+	display: table-cell;
+	text-align: center;
+	vertical-align:middle;
+}
+.col-blanca, .col-azul{
+	font: normal 10px arial;
+}
+.col-blanca{
+	background-color: #fff;
+	width: 100%;
+	display:table;
+}
+.cel-blanca{
+	display: table-cell;
+	text-align: center;
+	vertical-align:middle;
+}
+.col-azul{
+	background-color: #bccfed;
+	display: table;
+	width: 100%;
+	display:table;
+}
+.cel-azul{
+	display: table-cell;
+	text-align: center;
+	vertical-align:middle;
+}
+.cabecera-glosa{
+	clear: both;
+	font: bold 12px Arial;
+	color: #fff;
+	text-align: justify;
+	background-color: #464749;
+	padding: 2.5px 0 2.5px 5px;
+}
+.glosa-item{
+	padding: 5px 5px 10px 5px;
+	font: normal 10px sans-serif;
+}
+
+/* provide some minimal visual accomodation for IE8 and below */
+.TFtable tr{
+	background: #fff;
+}
+/*  Define the background color for all the ODD background rows  */
+.TFtable tr:nth-child(odd){ 
+	background: #fff;
+}
+/*  Define the background color for all the EVEN background rows  */
+.TFtable tr:nth-child(even){
+	background: #bccfed;
+}
+
+#someTable{
+overflow-x:scroll;
+/* height:300px; */
+}
+
+#td1{
+	width: 500px;
+}
+#td2{
+	width: 365px;
+}
+#td3{
+	width: 365px;
+}
+
+
+
+
+#titulo{
+	font-family: arial, sans-serif;
+	color: #665E5E;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: justify;
+	letter-spacing: 0pt;
+	word-spacing: 2.4pt;
+}
+
+#cabeceraTabla{
+	font: bold 10px arial;
+	text-align: center;
+	height: 25px;
+	color: #fff;
+	background-color: #3c82c8;
+	line-height: 2.3;
+}
+
+#ErroresCabecera{
+	width: 80%;
+	color: #fff;
+	background-color: #C9C5C5;
+	margin-left: 45px;
+	margin-bottom: 5px;
+	font: bold 14px arial; 
+}
+#datosPI{
+	width: 80%;
+	color: #fff;
+	background-color: #C9C5C5;
+	margin-left: 45px;
+	margin-bottom: 5px;
+	font: bold 14px arial; 
+	padding: 2% 0% 2% 0%;
+}
+#table1{
+	padding-left: 20px;
+	font: normal 12px arial;
+}
+
+#tablaDatos{
+	width: 100%;
+	font: normal 10px arial;
+}
+
+#principal{
+	background-color: #f5f5f5; 
+	padding: 10px 30px 20px 30px;
+}
+#glosa{
+	padding: 5px 5px 10px 5px; 
+	font: normal 10px sans-serif;
+}
+#errorFila{
+	font: normal 10px sans-sans-serif;
+	background-color: #D3D1D1;
+}
+#tituloErrorFila{
+	background-color: #5A5A5A;
+	padding-left: 10px;
+	color: white;
+	font: bold 14px arial; 
+}
+span{
+	width: 30%;
+}
+
+.rTable {
+    	display: table;
+    	width: 100%;
+}
+.rTableRow {
+    	display: table-row;
+}
+.rTableCell, .rTableHead {
+    	display: table-cell;
+    	padding: 3px 10px;
+    	border: 1px solid #999999;
+}
+.rTableHeading {
+    	display: table-header-group;
+    	background-color: #ddd;
+    	font-weight: bold;
+}
+.rTableFoot {
+    	display: table-footer-group;
+    	font-weight: bold;
+    	background-color: #ddd;
+}
+.rTableBody {
+    	display: table-row-group;
+}

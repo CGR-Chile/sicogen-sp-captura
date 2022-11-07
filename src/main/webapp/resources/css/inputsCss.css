@@ -1,0 +1,51 @@
+body {font: 12px arial;}
+
+.Selectano {border-radius: 10px 10px 10px 10px;font:bold 12px arial;color: #464749;width: 170px;}
+.Selectanoenabled {border-radius: 10px 10px 10px 10px;font:bold 12px arial;color: #464749;width: 170px;background: #202020;background-color: rgba(0, 0, 0, 0.3);}
+.Inputs{border-radius: 10px 10px 10px 10px;font:normal 12px arial;color: #464749;width: 170px;}
+
+.boton {
+    background-color: #464749;
+    border: 1px solid #E0E0E2;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 7px;
+    text-align:center;
+    padding-top: 7px;
+    width: 140px;
+    font-style: arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 30px;
+    /**margin-left: 2px;*/
+    float:right;
+
+}
+
+.boton:hover {
+    background-color: #FF9900;
+    cursor: pointer;
+
+}
+
+.areaTxt{
+    border:0;
+    padding:10px;
+    font: bold 12px sans-serif;
+    color:#ccc;
+    border:solid 1px #ccc;
+    margin:0 0 20px;
+    width:300px;
+    -moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
+    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+    box-shadow: inner 0 0 4px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.areaTxt{
+    outline: none !important;
+    border-color: #719ECE;
+    box-shadow: 0 0 10px #719ECE;
+}

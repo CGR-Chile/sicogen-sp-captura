@@ -1,0 +1,113 @@
+@import url("cssInformeBase.css");
+
+#titulo1{	font-size: 20px;text-align: left;width: 1210px;}
+#titulo2{	font-size: 17px;text-align: left;width: 1200px;}
+#titulo3{	font-size: 40px;text-align: center;width: 1200px;}
+
+
+.row01 {	background-color: #464749;clear: both;color: #FFFFFF;font: bold 12px Arial;padding: 2.5px 0 2.5px 5px; margin: 10px 0 0 0;text-align: justify;}
+
+.tabla{		font: bold 12px arial;}
+.cabecera{	background-color: #3C82C8;color:#fff;}
+
+
+.EncabezadoInforme{		float:left;width:350px;margin: 25px 0 25px 10px;filter:alpha(opacity=90); opacity:0.9;}
+.erroresEncabezados{	padding: 5px;font: bold 10px sans-serif;background-color:#FFF11A;}
+.cabErrores{			padding: 5px;font: bold 10px sans-serif;background-color:#FFD700;}
+.contErrores{			margin:15px 0 15px 0;width:1212px;filter:alpha(opacity=90); opacity:0.9;}
+.DetalleInforme{		width: 1212px;filter:alpha(opacity=90);opacity:0.9;overflow-x:scroll;clear:both;}
+
+.detalleTitulo{			display:table-header-group;font: bold 10px sans-serif;text-align: center;height: 25px;width: 1060px;background-color:#DEDCDC;}
+.detalleContenido{		display:table-row;font: normal 10px sans-serif ;max-height:250px;width: 1240px;overflow-x:hidden;}
+
+.row02EncCol03Estado{	font: bold 10px sans-serif;float:left;height:18px;background-color: #FAEFEF;padding: 0 0 0 15px;}
+.row02EncCol03Estado0{	font: bold 18px sans-serif;float:left;height:18px;background-color: #FAEFEF;padding: 0 0 0 15px;}
+.row02EncCol03Estado1{	font: bold 18px sans-serif;float:left;height: 18px;background: url("../images/Bloqueante1.png") no-repeat;
+						background-color: #FAEFEF;padding: 0 0 0 15px;}
+.row02EncCol03Estado2{	background: url("../images/Advertencia1.png") no-repeat;font: bold 10px sans-serif ;float:left;
+						height: 18px;background-color: #FAEFEF;padding: 0 0 0 15px;}
+ 
+
+
+.contTituloReporte{ margin: 25px 100px 5px 500px;float: left;width: 230px;padding: 30px 0px 20px 50;border:2px solid;border-radius:25px;-moz-border-radius:25px;filter:alpha(opacity=90); opacity:0.9;}
+.tituloReporte{	font: bold 14px sans-serif;text-align:center;padding:0px 30px 0 0;}
+
+.numReporteS{	font: bold 12px sans-serif ;padding: 10px 0 0 0;float:left;}
+.numReporteI{	font: bold 12px sans-serif ;padding: 10px 40px 0 0;float:right;}
+
+
+.row02 {	color: #000;text-align:justify;background-color: #E2E1E1;}
+.row01d {	background-color: #E2E1E1;clear: both;color: #000000;font: bold 13px sans-serif;padding: 2.5px 0 2.5px 5px;text-align: justify;width: 1235px;}
+
+
+
+.rw_DetImp{	background-color:#FFF3F3;}
+.rw_DetPar{	background-color:#FFE9E9;}
+
+.row02EncCol01{font: bold 10px sans-serif;float:left;width: 120px;background-color: #F8F8F8;padding: 0 0 0 15px;height: 18px;}
+.row02EncCol02{font: bold 10px sans-serif ;float:left;width: 185px;background-color: #FAEFEF;padding: 0 0 0 15px;height: 18px;}			
+
+.ContenedorInforme{}
+
+.tituloDetCol01{	float:left;width:30px; text-align:center;}
+.tituloDetCol02{	float:left;width:60px; text-align:center;}
+.tituloDetCol03{	float:left;width:130px;text-align:center;}
+.tituloDetCol04{	float:left;width:40px; text-align:center;}
+.tituloDetCol05{	float:left;width:50px; text-align:center;}
+.tituloDetCol06{	float:left;width:35px; text-align:center;}
+.tituloDetCol07{	float:left;width:30px; text-align:center;}
+.tituloDetCol08{	float:left;width:40px; text-align:center;}
+.tituloDetCol09{	float:left;width:40px; text-align:center;}
+.tituloDetCol10{	float:left;width:485px;text-align:center;}
+.tituloDetCol11{	float:left;width:105px;text-align:center;}
+.tituloDetCol12{	float:left;width:105px;text-align:center;}
+.tituloDetCol13{	float:left;width:35px; text-align:center;}
+
+.row02DetCol01{		float:left;width:30px;text-align: center;}
+.row02DetCol02{		float:left;width:60px;text-align: center;}
+.row02DetCol03{		float:left;width:130px;text-align:center;}
+.row02DetCol04{		float:left;width:40px;text-align: center;}
+.row02DetCol05{		float:left;width:50px;text-align: center;}
+.row02DetCol06{		float:left;width:35px;text-align: center;}
+.row02DetCol07{		float:left;width:30px;text-align: center;}
+.row02DetCol08{		float:left;width:40px;text-align: center;}
+.row02DetCol09{		float:left;width:40px;text-align: center;}
+.row02DetCol10{		float:left;width:485px;text-align: justify;}
+.row02DetCol11{		float:left;width:105px;text-align: center;}
+.row02DetCol12{		float:left;width:70px;text-align: center;margin: 0 10px;}
+.row02DetCol13{		float:left; width:35px; text-align: center;}
+
+.row02DetCol14{		font-weight:bold;float:left;width: 1200px;padding: 0 0 0 15px;}
+.row02DetCol15{		float:left;width:1210px;padding: 0 0 5px 15px;}
+
+.Botones{				width:1215px;}
+.contErroresGenericos{	width:1212px;}
+.separador{
+	width:1215px;
+	
+}
+.row010 {
+  background-color: #E3E2E2;
+    clear: both;
+    color: #000000;
+    font: bold 13px sans-serif;
+    padding: 2.5px 0 2.5px 5px;
+    text-align: justify;
+    width: 330px;
+
+}
+
+
+.EncabezadoUsuario {
+    float: left;
+    left: 500px;
+    margin: 25px 0 25px 10px;
+    opacity: 0.9;
+    position: relative;
+    width: 335px;
+}
+
+#carga{	
+	height: 600px;
+    width: 1225px;
+}

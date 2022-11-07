@@ -1,0 +1,36 @@
+.sicogenlogo {
+    height:120px;
+    background-color: #FFFFFF !important;
+}
+.title-rv {
+    color: #454648;
+    font:bold 20px Arial;
+    padding: 10px;
+    width:1270px;
+    background-color: #d7d7d9 !important;
+}
+table.adminlist {
+    width: 100%;
+    border-spacing: 0px;
+    background-color: #FFFFFF !important;
+    color: #666;
+    font-size: 14px !important;
+}
+.tablaCuentas {
+    width: 100%;
+    font-size: 12px !important;
+}
+.showHideColumns {
+    text-align: left !important;
+}
+.detalleInformeDiv {
+    width: 100% !important;
+}
+
+.ui-dialog-title {
+    color: #FFFFFF !important;
+}
+
+.errorEncabezado1{ padding: 0 0 0 15px !important; background: url("../img/Bloqueante1.png") no-repeat !important; }
+.errorEncabezado2{ padding: 0 0 0 15px !important; background: url("../img/Bloqueante2.png") no-repeat !important; }
+.errorEncabezado3{ padding: 0 0 0 15px !important; background: url("../img/Bloqueante3.png") no-repeat !important; }

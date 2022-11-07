@@ -1,0 +1,26 @@
+@import url("baseCuadratura.css");
+#scrollbar1 { width: 1015px; }
+#scrollbar1 .viewport { width:1000px;}
+#imgTitulo{margin: 8px 5px 5px 15px;}
+
+
+.tituloInforme{font: bold 14px arial; background-color:#D7D7D9;color: #fff;margin: 0;padding: 5px;text-align: left;}
+.subtitulo{	font: bold 12px sans-serif;text-transform: uppercase;color: #666666;margin-left:15px;}
+
+table { width:990px; border-collapse:collapse;border-spacing: 0; margin:10px 0;}
+table thead{ border: 2px solid;	}
+table tbody{ border: 2px solid;	text-align: center;}
+table tbody{ border: 2px solid;	text-align: center;font:bold 10px arial;}
+
+.cabezeraRep{	background-color:#0066b8;color: #fff;font: bold 12px arial;border-spacing:0;border-collapse:collapse;}
+.titColumnas{	background-color:#3c82c8;color:#fff;font: normal 12px arial;border-spacing:0;border-collapse:collapse;}
+.totales{		width:100%;}
+.colTotal{		text-align: center;font:bold 10px arial;}
+
+.colorOk{	color:#9bbb59;}
+.Error{		color:#FF0000;}
+
+.rwDetPar{		background-color:#BCCFED;	font: normal 10px Arial;}
+.rwDetImp{		background-color:#fff;		font: normal 10px Arial;}
+
+

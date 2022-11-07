@@ -1,0 +1,9 @@
+/.idea
+*.iml
+*.zip
+*.class
+/target
+.DS_Store
+.classpath
+.project
+org.eclipse.*

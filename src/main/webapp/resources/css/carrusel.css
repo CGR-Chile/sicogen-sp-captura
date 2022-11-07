@@ -1,0 +1,68 @@
+* { margin:0px; padding:0px; }
+p { margin:0 0 0px 0; }
+
+a img { border:none !important; }
+
+table {}
+td {}
+caption { display:none; visibility:hidden; }
+
+h1 {
+	font:bold arial;
+	padding-left:20px;
+	color:#333333;
+}
+h2 { color: #a3b204; font-size: 12px; }
+h3 {
+	color: #61696E;
+	font-size: 11px;
+	font-weight: bold;
+}
+h4 {}
+h5 {}
+h6 {}
+
+strong, b {}
+
+a { color:#3B5161; text-decoration:none; }
+a:hover { color:#36779F; text-decoration:none; }
+
+:focus { outline: none; }
+form { margin: 0px; padding: 0px; }
+input, select, textarea {}
+label { margin: 0px; padding: 0px; display:block; }
+ul{}
+button { border: none; margin: 0px; padding: 0px; cursor: pointer; }
+acronym { cursor:default; font-weight:bold; color:#a3b204; border-bottom:1px dotted #a3b204; }
+acronym a { cursor: default; font-weight:bold; color:#a3b204; border-bottom:1px dotted #a3b204; }
+
+
+
+/* CARRUSEL DE PRODUCTOS */
+#noticias {
+	border: 1px solid #E0E0E2;
+	border-radius: 10px 10px 10px 10px;
+	background-color:#dfdfe1;
+	width:935px;
+	height:121px;
+	padding:0;
+	margin:0px 0 0px 2px;
+	float: left;
+}
+#noticias .panel { width:955px; padding:0 0 0 5px;height: 121px}
+#noticias .panel .primero { margin:10px 40px; }
+#noticias .panel .ultimo { margin:10px 40px; }
+#noticias .panel .thumb_producto {
+	float:left;
+	margin:5px 5px 0 0;
+}
+#noticias .panel h1 { margin:10px; padding:0; font-size:14px; font-weight:bold; color:#62696F;/*width:380px;*/}
+#noticias .panel p { margin:0 0 6px 8px; padding:0; font-size:11px; color:#62696F; }
+#noticias .panel em { display:block; font-style:normal; margin:0; padding:0; color:#db4709; font-size:15px; font-weight:bold; } /*border-bottom:1px dotted #BDC7CD; }*/
+#noticias .panel big { font-family:Arial Narrow, Helvetica, sans-serif; margin:0; padding:0; color:#db4709; font-size:20px; font-weight:bold; }
+.stepcarousel { position:relative; width:960px; height:121px; }
+.stepcarousel .belt { position:absolute; left:0; top:0; }
+.stepcarousel .panel { float:left; overflow:hidden; width:220px; }
+
+.imgNews, img.imgNews{width:500px;height:121px;float:left;}
+.infNews{float:left;width:430px;padding-right: 20px;}

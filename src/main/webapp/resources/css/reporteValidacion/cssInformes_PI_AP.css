@@ -1,0 +1,112 @@
+@import url("cssInformeBase.css");
+.ContenedorInforme{					
+}
+
+.row02DetCol15{
+	float:left;
+	width: 1460px;
+}
+.row02DetCol16{
+	float:left;
+	width: 1200px;
+}
+.tituloDetCol01{
+	width:30px;
+	float:left;
+	/*background-color: #F1E0E0;*/
+	text-align: center;
+}
+.row02DetCol01{
+	float:left;
+	/*background-color: #F1E0E0;*/
+	width:30px;
+	text-align: center;
+}
+.tituloDetCol02{
+	float:left;
+	width:100px;
+	/*background-color: #DAD7D7;*/			
+	text-align: center;
+}
+.row02DetCol02{
+	float:left;
+	width:100px;
+	/*background-color: #DAD7D7;*/
+	text-align: center;
+}
+.tituloDetCol03{ float:left;width:110px;text-align:center;}
+.row02DetCol03{  float:left;width:110px;text-align:center;}
+.tituloDetCol04{ float:left;width:50px;text-align:center;}
+.row02DetCol04{  float:left;width:50px;text-align:center;}
+.tituloDetCol05{ float:left;width:60px;text-align:center;}
+.row02DetCol05{  float:left;width:60px;text-align:center;}
+.tituloDetCol06{ float:left;width:50px;text-align:center;}
+.row02DetCol06{  float:left;width:50px;text-align:center;}
+.tituloDetCol07{ float:left;width:50px;text-align:center;}
+.row02DetCol07{  float:left;width:50px;text-align:center;}
+.tituloDetCol08{ float:left;width:50px;text-align:center;}
+.row02DetCol08{  float:left;width:50px;text-align:center;}
+.tituloDetCol09{ float:left;width:50px;text-align:center;}
+.row02DetCol09{  float:left;width:50px;text-align:center;}
+
+.tituloDetCol10{ float:left;width:250px;text-align:center;}
+.row02DetCol10{  float:left;width:250px;text-align:center;}
+
+.tituloDetCol11{ float:left;width:120px;text-align:center;}
+.row02DetCol11{  float:left;width:120px;text-align:center;text-align: justify;}
+.tituloDetCol12{ float:left;width:120px;text-align:center;}
+.row02DetCol12{  float:left;width:120px;text-align:justify;}
+.tituloDetCol13{ float:left;width:50px;text-align:center;}
+.row02DetCol13{  float:left;width:50px;text-align:center;}
+.tituloDetCol14{ float:left;width:110px;text-align:center;}
+.row02DetCol14{  float:left;width:110px;text-align:center;}
+
+.detalleContenido{ font: normal 10px arial;max-height:250px;width:1100px;}
+.row04{            font: bold 10px arial;text-align:center;height:25px;width:100%;color:#fff;background-color: #3c82c8;width:1100px}
+.row03 {           clear:both;font: bold 12px Arial;color: #fff;text-align:justify;background-color: #0066b8;padding: 2.5px 0 2.5px 5px;width:1100px}
+.Botones{
+	 text-align:center;
+	 
+}
+.contErroresGenericos{
+	width:1212px;
+}
+.row010 {
+  background-color: #E3E2E2;
+    clear: both;
+    color: #000000;
+    font: bold 13px sans-serif;
+    padding: 2.5px 0 2.5px 5px;
+    text-align: justify;
+}
+
+
+
+
+/**/
+/* body{ */
+/*     -webkit-transform: rotate(90deg); */
+/*     -moz-transform: rotate(90deg); */
+/*     -o-transform: rotate(90deg); */
+/*     -ms-transform: rotate(90deg); */
+/*     transform: rotate(90deg); */
+/* } */
+
+@page { size: landscape; }
+
+/* con esto ajustamos el texto a 300 píxeles */
+.ajustar{
+width: 300px;
+float: left;
+white-space: pre; /* CSS 2.0 */
+white-space: pre-wrap; /* CSS 2.1 */
+white-space: pre-line; /* CSS 3.0 */
+white-space: -pre-wrap; /* Opera 4-6 */
+white-space: -o-pre-wrap; /* Opera 7 */
+white-space: -moz-pre-wrap; /* Mozilla */
+white-space: -hp-pre-wrap; /* HP */
+word-wrap: break-word; /* IE 5+ */
+}
+div.limpiar{
+clear: both;
+}

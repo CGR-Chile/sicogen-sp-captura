@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://www.cgr.cl/osb/informes/ic/v2/sigfe/validacion"
+                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:io="http://www.contraloria.cl/xml/esquemas"
+                  xmlns:tns="http://www.cgr.cl/osb/informes/ic/v2/sigfe/validacion">
+    <wsdl:types>
+        <xs:schema xmlns="http://www.contraloria.cl/xml/esquemas" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.contraloria.cl/xml/esquemas" elementFormDefault="qualified" attributeFormDefault="unqualified">
+            <xs:element name="validaInformeRequest" type="validaInformeRequestType"/>
+            <xs:complexType name="validaInformeRequestType">
+                <xs:sequence>
+                    <xs:element name="idArchivo" type="xs:int"/>
+                    <xs:element name="uuid" type="xs:string"/>
+                    <xs:element name="periodo" type="xs:string"/>
+                    <xs:element name="capitulo" type="xs:string"/>
+                    <xs:element name="partida" type="xs:string"/>
+                    <xs:element name="ejercicio" type="xs:string"/>
+                    <xs:element name="isCargaManual" type="xs:boolean" default="false"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="requestMessage">
+        <wsdl:part element="io:validaInformeRequest" name="request" />
+    </wsdl:message>
+    <wsdl:portType name="ValidacionPortType">
+        <wsdl:operation name="validaInforme">
+            <wsdl:input message="tns:requestMessage" name="request" />
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="ValidacionSOAP11Binding" type="tns:ValidacionPortType">
+        <soap:binding style="document"
+                      transport="http://schemas.xmlsoap.org/soap/http" />
+        <wsdl:operation name="validaInforme">
+            <soap:operation soapAction="http://www.cgr.cl/osb/informes/ic/v2/sigfe/validaInforme"/>
+            <wsdl:input>
+                <soap:body use="literal" />
+            </wsdl:input>
+        </wsdl:operation>
+    </wsdl:binding>
+</wsdl:definitions>

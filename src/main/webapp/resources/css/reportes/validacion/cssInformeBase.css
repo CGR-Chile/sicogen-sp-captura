@@ -1,0 +1,330 @@
+.logo {
+    background-image: url("../../../images/sicogenii_logo.png");
+    background-repeat: no-repeat;
+    background-size: 320px 90px;
+    height: 92px;
+    width: 960px;
+     padding-bottom: 10px;
+}
+#carga{	height: 600px;
+width:960px;
+margin-left: 40px;
+}
+#titulo{
+	background-color:#d7d7d9;
+	padding: 10px;
+	text-align: center;
+    width: 936px;
+	font: bold 20px Arial;
+	color:#454648;
+}
+.EncabezadoInforme{
+	float:left;
+	margin: 10px 0 5px 0px;
+	filter:alpha(opacity=90); opacity:0.9;
+	width: 50%;
+	/* height: 185px; */
+}
+.EncabezadoInforme2{
+	float:left;
+	margin: 10px 0 5px 10px;
+	filter:alpha(opacity=90); opacity:0.9;
+	width: 100%;
+}
+.EncabezadoUsuario {
+    float: left;
+    margin: 10px 0 5px 10px;
+    opacity: 0.9;
+    position: relative;
+    width: 48.5%;
+    height: 185px;
+}
+.row01 {
+	clear:both;
+	font: bold 12px Arial;
+	color: #fff;
+	text-align:justify;	
+	background-color: #464749;
+	padding: 2.5px 0 2.5px 5px;	
+}
+.row02 {				
+	color: #000;
+	text-align:justify;	
+	background-color: #E2E1E1;
+	height: 18px;
+}
+.row02EncCol01{
+	font: bold 10px sans-serif;
+	float:left;
+	width: 195px;
+	background-color: #F8F8F8;				
+	padding: 0 0 0 5px;
+	height: 18px;
+}
+.row02EncCol02{
+	font: bold 10px sans-serif ;
+	float:left;
+	width: 260px;			
+	background-color: #D7D7D9;
+	padding: 0 0 0 5px;	
+	height: 18px;			
+}
+.row03 {
+	clear:both;
+	font: bold 12px Arial;
+	color: #fff;
+	text-align:justify;	
+	background-color: #0066b8;
+	padding: 2.5px 0 2.5px 5px;	
+}
+.row04{
+	font: bold 10px sans-serif ;
+	text-align: center;
+	height: 25px;
+	width: 100%;
+	color:#fff;
+	background-color: #3c82c8;
+	width: 1500px
+}
+.rwDetImp{
+	background-color: #fff;				
+	display: table;
+	width:100%;
+}
+.rwDetImp > div {display: table-cell;}			
+/*omit width:50% for auto-scaled column widths*/
+.rwDetPar{
+	background-color:#bccfed;				
+	display: table;
+	width:100%;
+}
+.rwDetPar > div {display: table-cell;}			
+/*omit width:50% for auto-scaled column widths*/
+
+.erroresNumero{
+	clear:both;
+	float:left;
+	width:20px;
+	padding-right:5px;
+	font: bold 10px sans-serif ;
+	text-align:right;
+}
+.erroresEncabezados{	padding: 5px; font: bold 10px sans-serif; background-color: #8D8D8F;color:white; }
+.erroresEncabezados1{ padding: 0 0 0 15px; background: url("../../../images/Bloqueante1.png") no-repeat; font: normal 10px sans-serif; }
+.erroresEncabezados2{ padding: 0 0 0 15px; font: normal 10px sans-serif; background: url("../../../images/Bloqueante2.png") no-repeat; }
+.erroresEncabezados3{ padding: 0 0 0 15px; font: normal 10px sans-serif; background: url("../../../images/Bloqueante3.png") no-repeat; }
+
+.cabErrores{			padding: 5px; font: bold 10px sans-serif; background-color: #FFD700;}
+.contErrores{			clear:both; margin:5px 0 5px 0; width: 100%; height:75px; overflow-x: hidden; overflow-y: scroll;}
+
+.erroresImp{	background-color:#fff; }
+.erroresPar{	background-color:#e8e8ea; }
+.DetalleInforme{
+	width: 960px;
+	filter:alpha(opacity=90); 
+	opacity:0.9;
+	clear:both;
+	overflow-x:scroll;
+	overflow-Y:scroll;
+    max-height: 350px;
+    min-height: 150px;
+}
+
+
+.row02EncCol03Estado{
+	font: bold 10px sans-serif ;
+	float:left;
+	
+	height:18px;			
+	background-color: #FAEFEF;
+	padding: 0 0 0 15px;				
+}
+.row02EncCol03Estado0{
+	font: bold 18px sans-serif ;
+	float:left;
+	
+	height:18px;			
+	background-color: #FAEFEF;
+	padding: 0 0 0 15px;				
+}
+.row02EncCol03Estado1{
+	background: url("../../images/Bloqueante1.png") no-repeat;
+	font: bold 18px sans-serif ;
+	float:left;
+				
+	 height: 18px;
+	background-color: #FAEFEF;
+	padding: 0 0 0 15px;				
+}
+.row02EncCol03Estado2{
+	background: url("../../images/Advertencia1.png") no-repeat;
+	font: bold 10px sans-serif ;
+	float:left;
+	
+	 height: 18px;			
+	background-color: #FAEFEF;
+	padding: 0 0 0 15px;				
+}
+ 
+.detalleContenido{
+	font: normal 10px sans-serif ;
+	max-height:250px;
+	width: 1500px;
+}
+
+.contTituloReporte{
+	margin: 25px 100px 5px 500px;
+	float: left;
+	width: 230px;
+	padding: 30px 0px 20px 50;
+	border:2px solid;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Old Firefox */
+	filter:alpha(opacity=90); opacity:0.9;
+}
+.tituloReporte{
+	font: bold 14px sans-serif ;
+	text-align: center;
+	padding: 0px 30px 0 0;
+}
+.numReporteS{
+	font: bold 12px sans-serif ;
+	padding: 10px 0 0 0;
+	float:left;
+}
+.numReporteI{
+	font: bold 12px sans-serif ;
+	padding: 10px 40px 0 0;
+	float:right;
+}
+
+
+.row01d {
+    background-color: #E2E1E1;
+    clear: both;
+    color: #000000;
+    font: bold 13px sans-serif;
+    padding: 2.5px 0 2.5px 5px;
+    text-align: justify;
+    width: 1225px;
+}
+.separador{
+	width:99%;
+	
+}
+
+.row02DetCol14ErroreHead{
+	font-weight:bold;
+	float:left;
+	width: 100%;
+	color: #FFFFFF;
+	padding: 0 0 0 5px;
+	background-color: #464749;
+}
+.row02DetCol14ErroreBody{
+	font-weight:bold;
+	float:left;	
+    padding: 0 0 0 5px;
+	bold 10px sans-serif;
+	background-color: #FAEFEF; 
+	width: 99%;
+	}
+.row02DetCol14ErroreBody1{
+	float:left;
+	font-weight:bold;	
+    padding: 0 0 0 15px; 
+	bold 10px sans-serif;
+	background: url("../../images/Bloqueante1.png") no-repeat; 
+	background-color: #FAEFEF;
+	width: 99%;
+	}
+.row02DetCol14ErroreBody2{	
+	float:left; 
+	font-weight:bold;	
+	padding: 0 0 0 15px; 
+	bold 10px sans-serif;
+	background: url("../../images/Bloqueante2.png") no-repeat; 
+	background-color: #FAEFEF;
+	width: 99%;
+	}
+.row02DetCol14ErroreBodyPar{
+	font-weight:bold;
+	float:left;	
+    padding: 0 0 0 5px;
+	bold 10px sans-serif;
+	background-color: #D7D7D9; 
+	width: 99%;
+	}
+.row02DetCol14ErroreBody1Par{
+	float:left;
+	font-weight:bold;	
+    padding: 0 0 0 15px; 
+	bold 10px sans-serif;
+	background: url("../../images/Bloqueante1.png") no-repeat; 
+	background-color: #D7D7D9;
+	width: 99%;
+	}
+.row02DetCol14ErroreBody2Par{	
+	float:left; 
+	font-weight:bold;	
+	padding: 0 0 0 15px; 
+	bold 10px sans-serif;
+	background: url("../../images/Bloqueante2.png") no-repeat; 
+	background-color: #D7D7D9;
+	width: 99%;
+	}
+	.ayudas{
+	font: bold 18px arial 65 ;
+	clear:both;
+	float: right;
+	margin-top:20px;
+	padding: 5px 15px 0 5px;
+}
+
+#pie {clear: both;height: 40px;text-align: center;padding-right: 5px;padding-top: 20px;margin-top: 5px;
+background-image: linear-gradient(bottom, rgb(70,71,73) 17%, rgb(56,52,56) 59%, rgb(168,168,168) 80%);
+background-image: -o-linear-gradient(bottom, rgb(70,71,73) 17%, rgb(56,52,56) 59%, rgb(168,168,168) 80%);
+background-image: -moz-linear-gradient(bottom, rgb(70,71,73) 17%, rgb(56,52,56) 59%, rgb(168,168,168) 80%);
+background-image: -webkit-linear-gradient(bottom, rgb(70,71,73) 17%, rgb(56,52,56) 59%, rgb(168,168,168) 80%);
+background-image: -ms-linear-gradient(bottom, rgb(70,71,73) 17%, rgb(56,52,56) 59%, rgb(168,168,168) 80%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.17, rgb(70,71,73)),
+	color-stop(0.59, rgb(56,52,56)),
+	color-stop(0.8, rgb(168,168,168))
+);
+}
+.boton {
+    background-color: #464749;
+    border: 1px solid #E0E0E2;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 7px;
+    text-align:center;
+    padding-top: 7px;
+    width: 120px;
+    font-style: arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 30px;
+    /**margin-left: 2px;*/
+    /* float:right; */
+ 
+}
+
+.boton:hover {
+    background-color: #FF9900;
+    cursor: pointer;
+   
+}
+
+.Pauta_texto {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFFFFF; 
+}

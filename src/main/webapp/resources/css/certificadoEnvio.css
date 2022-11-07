@@ -1,0 +1,133 @@
+.barraBotones {
+	/*
+	border: 1px gray solid;
+	*/
+	display:block;
+	width: 40%;
+	height: 40px;
+	padding: 5px 10px;
+	margin: 40px auto 10px auto;
+	background-color: #FFF;
+	text-align: center;
+	
+}
+img .img18, .img18{
+	width: 18px;
+	height: 18px;
+	margin: 0 auto;
+}
+
+.grillaInformes{
+	margin: 5px auto 5px auto; 
+	width: 98%;
+	
+	/*margin: 15px auto 5px auto;
+	padding: 5px 0px 10px 5px;
+	border: 2px solid;*/
+	
+	
+}
+.rwEncInf{
+	width: 98%;
+	height: 25px;
+	background-color: #B5B3B3;
+	color:#fff;
+	font: bold 12px sans-serif ;
+	padding: 15px 0px 0 10px;
+	display: table;
+	
+	/* border-radius: 15px 15px 0 0;
+	-moz-border-radius: 15px 0 0 0; */
+}
+
+.rwPieInf{
+	clear:both;
+	display:block;
+	width: 98%;
+	/*height: 5px;*/
+	background-color: #B5B3B3;
+	color:#fff;
+	font: bold 12px sans-serif ;
+	padding: 15px 0 0 10px;
+	/*display: table;*/
+	margin: 0px 0 0 0;
+	border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+	 
+}
+.rwdetInfPar{
+	background-color: #E6E6E6;	
+}
+.rwdetInfImp{	
+	background-color: #EEEEEE;
+}
+.rwdetInfPar, .rwdetInfImp{
+	clear:both;
+	width:99%;
+	color:#5D5C61;
+	font: normal 12px sans-serif ;
+	min-height:20px;
+	max-height:40px;
+	padding:0 0 0 0;
+	display: table; 
+}
+
+.tituloInfCol01{
+	float:left;
+	width:340px;
+	margin: 0 10px 0 0;
+	display: cell;
+}
+.detalleInfCol01{
+	float:left;
+	width:350px;
+	margin: auto 10px auto 5px;
+	padding: auto 0 auto 0;
+	display: cell;
+}
+.tituloInfColPer{
+	float:left;
+	width:100px;
+	height:20px;
+	text-align: center;
+	display: cell;
+}
+.detalleInfColPer{
+	float:left;
+	width:100px;
+	text-align: center;
+	display: cell;
+}
+.titulo{
+	padding: 10px auto 5px auto;
+	font: bold 14px Arial;
+	text-align: center;
+	color: #5D5C61;
+}
+.botones{
+	 margin: 0 auto;
+}
+.boton {
+    background-color: #464749;
+    border: 1px solid #E0E0E2;
+    border-radius: 10px 10px 10px 10px;
+    padding-bottom: 7px;
+    text-align:center;
+    padding-top: 7px;
+    width: 140px;
+    font-style: arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 30px;
+    /**margin-left: 2px;*/
+    float:right;
+ 
+}
+
+.boton:hover {
+    background-color: #FF9900;
+    cursor: pointer;
+   
+}

@@ -1,0 +1,53 @@
+.leyenda {
+	width: 67%;
+	float: left;
+	padding: 15px;
+	background-color: #EFEFEF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+
+.contUser { /*float:right;*/
+	width: 22%;
+	margin: 0% 0.5% 15% 71%;
+	padding: 10px 25px 10px 25px;
+	border: 2px solid;
+	border-radius: 25px;
+	-moz-border-radius: 25px; /* Old Firefox */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #333;
+}
+
+.textbox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #666;
+	font-size: 10px;
+	border: 1px solid lightGrey;
+	margin: 1px;
+	padding: 1px;
+	width: 80%;
+}
+
+.loginButton {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: white;
+	font-size: 9px;
+	width: 44px;
+	text-transform: none;
+	background: url(../images/botonintranet.jpg);
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	height: 17px;
+	cursor: pointer;
+}
+
+.errorMessage {
+	color: #FE2E2E;
+}

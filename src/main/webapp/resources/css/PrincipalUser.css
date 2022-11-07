@@ -1,0 +1,218 @@
+.barraBotones {
+	/*
+	border: 1px gray solid;
+	*/
+	display:block;
+	width: 40%;
+	height: 40px;
+	padding: 0;
+	margin: 40px auto 10px auto;
+	background-color: #FFF;
+	text-align: center;
+
+}
+img .img18, .img18{
+	width: 18px;
+	height: 18px;
+	margin: 0 auto;
+}
+
+display:none;
+
+.grillaInformes{
+	width: 100%;
+	border-spacing: 1px;
+
+
+}
+.rwEncInf{
+	width: 100%;
+	height: 25px;
+	background-color: #0066b8;
+	color:#fff;
+	padding: 5px 0px 0 0px;
+	display: table;
+}
+.rwPieInf{
+	clear:both;
+	display:block;
+	width: 98%;
+	/*height: 5px;*/
+	background-color: #B5B3B3;
+	color:#fff;
+	font: bold 12px arial 65 ;
+	padding: 15px 0 0 10px;
+	/*display: table;*/
+	margin: 0px 0 0 0;
+	border-radius: 0 0 10px 10px;
+	-moz-border-radius: 0 0 10px 10px;
+
+}
+.modal {
+	display: none;
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+	padding: 16px;
+	background: #fff;
+	color: #333;
+	z-index: 1002;
+	/*overflow: auto;*/
+}
+
+.rwdetInfPar{
+	background-color: #f9f9f9;
+	border: 0.6px  #999;
+
+}
+.rwdetInfImp{
+	width: 25%;
+	background-color: #fff;
+	border: 0.6px  #999;
+
+}
+
+.rwdetInfPar, .rwdetInfImp{
+	clear:both;
+	width:100%;
+	color:#444444;
+	font: normal 12px arial;
+	min-height:15px;
+	max-height:35px;
+	display: table;
+	padding-top: 3px;
+	padding-bottom: 3px;
+
+}
+
+.tituloInfCol01{
+	float:left;
+	width:40%;
+	margin: 0 10px 0 0;
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+.detalleInfCol01{
+	float:left;
+	width:380px;
+	margin: auto 10px auto 5px;
+	padding: auto 0 auto 0;
+	display: cell;
+}
+.tituloInfColPer{
+	float:left;
+	width:4%;
+	height:20px;
+	text-align: center;
+	display: cell;
+}
+.tituloInfColComp{
+	float:left;
+	width:37px;
+	text-align: center;
+	display: cell;
+}
+.detalleInfColPer{
+	float:left;
+	width:5%;
+	text-align: center;
+	margin: 1px 1px;
+	display: cell;
+	border: #0000FF;
+
+}
+.detalleInfColComp{
+	float:left;
+	width:30px;
+	text-align: center;
+	display: cell;
+}
+
+#erroresEnvio{ background-color:#fff;color:000;  margin:0; width:100%; font: bold 14px arial;}
+#botonError{padding: 15px 20px 15px 0; float:right;}
+
+#erroresEnvio{border-bottom-right-radius: 4px;}
+#TituloErrorEnvio{background-color:#000;color:#fff; border-bottom-right-radius: 4px;}
+#errorTitulo{background-color:#464648;color:fff;margin:5px 12px 0; padding:10px;font: bold 12px arial;}
+#errorMensaje{ background-color:#d7d7d9;color:000;margin:0 12px 0; padding:10px;font: normal 12px arial;}
+
+
+.tituloInfColError{
+	float:left;
+	width:100px;
+	margin: 0 10px 0 0;
+	display: cell;
+}
+.detalleInfColError{
+	float:left;
+	width:100px;
+	margin: auto 10px auto 5px;
+	padding: auto 0 auto 0;
+	display: cell;
+}
+.tituloInfColErrorFinal{
+	float:left;
+	width:240px;
+	margin: 0 10px 0 0;
+	display: cell;
+}
+.detalleInfColErrorFinal{
+	float:left;
+	width:310px;
+	margin: auto 10px auto 5px;
+	padding: auto 0 auto 0;
+	display: cell;
+}
+
+/* Marcelo Vega */
+.modalCarga {
+	/*display: none;*/
+	position: absolute;
+	top: 3%;
+	left: 6.5%;
+	width: 85%;
+	height: 710px;
+	padding: 35px !important;
+	background: #fff;
+	color: #333;
+	z-index: 1002;
+	overflow: auto;
+	border: 2px solid;
+	border-radius: 25px;
+	cursor: auto;
+	font: bold 12px arial;
+}
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	max-height: 110%;
+	background: #D7D7D9;
+	z-index: 1001;
+	opacity: .75;
+	cursor: auto;
+	font: bold 12px arial;
+	color: #333333;
+}
+.cargando {
+	text-align: center;
+	margin: 15px 0 20px 0;
+}
+.icoImage100 { width: 100px;height: 100px; }
+.icoImage75 { width: 75px;height: 75px; }
+.textoCargando {
+	width: 100%;
+	text-align: center;
+	font: bold 12px sans-serif;
+}
+.tituloSeleccionInf{
+	text-transform: uppercase;
+	font: bold 13px arial;
+	color:#464648;
+	padding: 5px 0;
+}

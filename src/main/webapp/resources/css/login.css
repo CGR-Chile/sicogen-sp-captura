@@ -1,0 +1,86 @@
+/* -- Imported styles ----------------------------- */
+
+@import url("general.css");
+
+/* -- Specific styles ----------------------------- */
+
+form  			{ margin: 0px; padding: 0px; }
+form .inputbox  { width: 120px; margin-left: 10px; }
+form .checkbox  { margin-left: 10px; }
+form br 	    { display: none; }
+.login          { margin: 0 auto; width: 500px; margin-bottom: 100px; }
+
+h1 {
+	margin: 15px 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+#lock  {
+	background: url(../img/j_login_lock.jpg) 50% 0 no-repeat;
+	width: 150px;
+	height: 137px;
+}
+
+#content-box .m {
+	padding: 10px;
+}
+
+#content-box .padding {
+	padding: 30px 0;
+}
+
+#section-err  {float:none; width: 520px;}
+
+#section-err .m {
+	padding: 5px;
+}
+#section-err .padding {
+	background: none; padding: 0;
+}
+
+#section-box  { float: right; width: 320px; margin-left: 10px;}
+
+#section-box .m {
+	padding: 5px;
+}
+#section-box .padding {
+	background: none; padding: 0;
+}
+
+.button { text-align: right; }
+
+.formLogin    { text-align: left; width: 60%; }
+.formLogin h1 { display: none; }
+.formLogin p  { padding: 0 1em 0 1em; }
+
+.login-text { text-align: left; width: 40%; float: left; }
+
+#formLogin label {
+	display: block;
+	float: left;
+	width: 120px;
+	text-align: right;
+	padding: 4px;
+	color: #666;
+	font-weight: bold;
+}
+
+#formLogin .button_holder {
+	float: left;
+	padding-left: 180px;
+}
+
+#formLogin div.button1{
+	float: left;
+}
+
+#formLogin div.button1 div.next {
+	float: left;
+}
+
+.Selectanoenabled {border-radius: 10px 10px 10px 10px;font:bold 12px arial;color: #464749;width: 170px;background: #202020;background-color: rgba(0, 0, 0, 0.3);}
